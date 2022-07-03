@@ -1,3 +1,3 @@
 function makeNegative(num) {
-  return num ? -num : num;
+  return num > 0 ? -num : num;
 }
